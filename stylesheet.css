@@ -1,0 +1,132 @@
+* {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    font-size: 15px;
+    margin-top: .5em;
+    background:  antiquewhite;
+
+}
+
+#aboutMe {
+   display: grid;
+  grid-template-columns: repeat(2 1fr);
+  grid-template-rows: auto;
+  grid-column: 1em;
+  grid-column-gap:1em ;
+
+}
+
+
+h1,h2,h3{
+    color: black;
+}
+
+h5{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(136, 121, 121);
+}
+
+#skills > ul{
+    padding: 2em ;
+    padding-top: 1em;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #6666;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+}
+
+#navbar a{
+    color: rgb(10, 9, 43);
+    text-decoration: none;
+    padding: .5em 2.5em;
+}
+
+#navbar a:hover{
+    background: aqua;
+    color: rgb(25, 112, 40);
+}
+
+#contact ul{
+    padding-left: 30px;
+    font-style: italic ;
+}
+
+
+header{
+    padding: 3em 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+ #image > img{
+    height: 150px;
+    width: 150px;
+   
+}
+header,
+main,
+footer {
+    margin:0 ;
+    max-width: 80%;
+}
+
+ section{
+    margin: 1em;
+    padding-top: 3em;
+    min-height: 2em;
+} 
+
+section > p{
+    margin: 1em 0;
+}
+
+#project{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-column: 1em;
+    grid-column-gap:1em ;
+}
+#project article{
+    background: rgb(200, 215, 241);
+}
+
+#project article img{
+    max-height: 70%;
+    width: 100%;
+    border: 3px solid rgba(22, 245, 189, 0.4)
+}
+
+#project h4{
+text-align: center;
+}
+
+#project ul{
+    padding-left: 30px;
+    font-style: italic ;
+}
+
+
+footer{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background: rgb(148, 139, 139);
+    color: #fff;
+    padding: .33em 0;
+    text-align: center;
+
+}
